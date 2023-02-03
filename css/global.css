@@ -1,0 +1,37 @@
+:root {
+    --primary: #393939;
+    --secondary: #131417;
+    --tertiary: #272727;
+    --text: #ccc;
+    --button-hover: #005cc8;
+    --shape-default: #005cc8;
+  
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text);
+    font-family: "Roboto", sans-serif;
+    outline: none;
+  }
+  
+  body {
+    background: linear-gradient(90deg, #1c1c1c, #272727);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: var(--tertiary);
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 30px;
+    border-bottom: solid black 2px;
+  }

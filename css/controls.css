@@ -1,0 +1,119 @@
+.container-controls {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .container-select-shape {
+    background-color: var(--primary);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 30%;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+  }
+  
+  .container-select-shape .select-shape {
+    margin-left: 15px;
+    font-size: 2.2rem;
+    padding-left: 10px;
+    color: #1c1c1c;
+  }
+  
+  .select-shape option {
+    color: #1c1c1c;
+  }
+  
+  .button {
+    background: var(--secondary);
+    width: 120px;
+    padding: 5px;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  
+  .button:hover {
+    background-color: var(--button-hover);
+  }
+  
+  .controls-shape-container {
+    background-color: var(--primary);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    min-width: 30vw;
+    padding: 10px 20px;
+  
+  }
+  
+  .control-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .control {
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  }
+  
+  .control-container .control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    width: 100%;
+    font-size: 2rem;
+    background-color: var(--tertiary);
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .control-container .control .range {
+    background: var(--secondary);
+    width: 45%;
+  }
+  
+  .control-container .control .input-number {
+    background-color: var(--secondary);
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .control-container .control-color {
+    align-self: center;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: var(--tertiary);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+  
+  }
+  
+  .control-container .control-color .color {
+    margin-left: 10px;
+    width: 100px;
+  }
